@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HackLab | Abdullah</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Welcome to HackLab</h1>
+<p>Ethical Pentesting Practice Website</p>
+
+<p>User: <span id="user"></span></p>
+
+<a href="login.html">Login</a> |
+<a href="contact.html">Contact</a>
+
+<script>
+const p = new URLSearchParams(window.location.search);
+document.getElementById("user").innerHTML = p.get("name");
+</script>
+
+</body>
+</html>

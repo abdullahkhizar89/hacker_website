@@ -1,0 +1,20 @@
+body {
+    background: black;
+    color: #00ff00;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 80px;
+}
+
+a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+input, textarea, button {
+    background: black;
+    border: 1px solid #00ff00;
+    color: #00ff00;
+    margin: 5px;
+    padding: 6px;
+}
